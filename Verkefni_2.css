@@ -1,0 +1,74 @@
+.kassi {
+    border: 2px solid green;
+    padding: 1px;
+    margin: 30px;
+}
+
+.kassi2{
+    text-align: left;
+    color: red;
+    border: 2px solid green;
+    outline: 2px solid red;
+    outline-offset: 60px;
+    outline-width: 5px;
+    margin: 100px;
+}
+
+.kassi3{
+    text-align: left;
+    color: blue;
+    border: 4px dashed blue;
+    outline: 2px solid red;
+    outline-offset: 20px;
+    outline-width: 5px;
+    margin: 80px;
+}
+
+.kassi4{
+    display: inline-block;
+    border: 3px dashed green;
+    padding: 1em;
+    margin: 1em;
+    width: 800px;
+}
+
+span.a{
+    display: inline-block;
+    width: 60px;
+    height: 15px;
+    padding: 1em;
+    margin: 1em;
+    margin-left: 500px;
+    border: 3px dashed blue;
+}
+
+hr{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+li{
+    margin-left: 500px;
+    margin-right: 20px;
+}
+
+.texti{
+    margin-left: 500px;
+    font-size: 30px
+}
+
+.texti2{
+    margin-left: 500px;
+}
+
+.haegri{
+    display: flex;
+    flex-direction: row;
+}
+
+.haegri > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
